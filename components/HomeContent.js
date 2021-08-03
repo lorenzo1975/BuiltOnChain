@@ -90,7 +90,7 @@ export default function HomeContent() {
                                 Bitcoin in a nutshell.
                             </h3>
                             <p className="mb-3 text-base leading-relaxed md:text-xl lg:text-base">Just say anything,
-                                George, say what ever's natural, the first thing that comes to your mind. Take that you mutated
+                                George, say what ever&#39;s natural, the first thing that comes to your mind. Take that you mutated
                                 son-of-a-bitch. My pine, why you. You space bastard, you killed a pine.
                             </p>
                             <a className="inline-flex items-center mt-2">
