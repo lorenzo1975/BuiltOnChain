@@ -5,7 +5,7 @@ export default function Logo() {
                 <div className="w-2 h-2 p-2 mr-2 bg-pink-600 rounded-full shadow-synthBox">
                 </div>
                 <h2
-                    className="text-lg font-bold tracking-tighter text-white tracking-relaxed">
+                    className="text-lg font-bold tracking-tighter dark:text-white text-gray-900 tracking-relaxed">
                     BuiltOnChain.com
                 </h2>
             </div>
