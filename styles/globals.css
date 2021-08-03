@@ -1,3 +1,17 @@
 @tailwind base;
+.synth-bg {
+  background-color: #110b21;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23362750' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2321193c' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23362750' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2321193c' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23362750' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2321193c' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23362750' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%2321193c' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23362750' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2321193c' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23362750' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2321193c' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  
+  .blog {
+    background-image: -webkit-linear-gradient(#022486 0%, #0AD0FD 30%, #BDFCFC 40%, #D8FFFF 44%, #0C111C 44%, #0C111C 50%, #074A67 52%, #1CD8FE 60%, #7FEDFE 62%, #96F5FC 70%, #0FD8FA 73%, #0BD2FD 88%, #AFFDFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  
 @tailwind components;
 @tailwind utilities;
