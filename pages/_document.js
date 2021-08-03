@@ -19,7 +19,7 @@ class MyDocument extends Document {
 
         <Head />
         <body className="bg-gradient-to-r dark:from-gray-700 dark:via-gray-900 dark:to-black
-                from-gray-100 to-yellow-100 ">
+                from-gray-100 to-yellow-100 dark:text-white text-gray-800 ">
           <Main />
           <NextScript />
         </body>

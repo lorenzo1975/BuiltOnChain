@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Head from 'next/head'
+import Footer from '@/components/Footer'
 import { ThemeProvider } from 'next-themes'
 
 function MyApp({ Component, pageProps }) {
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
 
       </Head>
       <Component {...pageProps} />
+      <Footer />
     </ThemeProvider>
   )
 }

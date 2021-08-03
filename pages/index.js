@@ -1,8 +1,9 @@
-import { NextSeo } from 'next-seo';
+import { NextSeo } from 'next-seo'
 import siteMetadata from '@/data/siteMetadata'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import Logo from '@/components/Logo'
-import Hero from '@/components/Hero';
+import Hero from '@/components/Hero'
+import HomeContent from '@/components/HomeContent'
 
 export default function Home() {
   return (
@@ -44,11 +45,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="text-gray-600 body-font ">
+        <section className="body-font">
           <div className="container px-5 mx-auto lg:px-28 lg:py-4">
             <div className="flex flex-col gap-6 lg:flex-row">
 
-              <div className="w-full px-4 mt-12 text-lg leading-snug tracking-tight text-white lg:w-1/2 lg:px-0">
+              <div className="w-full px-4 mt-12 text-lg leading-snug tracking-tight lg:w-1/2 lg:px-0">
                 <p className="pb-6">The web as we know has been a revolution that has far exceeded expectations changing our
                   lives in inimaginable ways in the last 20 years. We can now video call from all ends of the world, exchange messages instantly, have some
                   what free information accessible at google search.</p>
@@ -58,13 +59,13 @@ export default function Home() {
                 </p>
 
               </div>
-              <div className="w-full px-4 mt-12 text-lg leading-snug tracking-tight text-white lg:w-1/2 lg:px-0">
+              <div className="w-full px-4 mt-12 text-lg leading-snug tracking-tight lg:w-1/2 lg:px-0">
                 <p className="pb-6">Fast forward to {new Date().getFullYear()} and the internet is literally overun by a handful of companies.
-                  We have Amazon for shopping online, Booking for holida, Google for search, Facebook for social interaction, Paypal for payments.
+                  We have Amazon for shopping online, Booking for holidays, Google for search, Facebook for social interaction, Paypal for payments.
                   In very simple words today&#39;s internet is centralized.</p>
                 <p className="pb-6">
                   Web3 projects along with decentralization are the next attempt at bringing the web back into the hands of everyone. This is how big
-                  the blockchain revolution is. With these new technologies the web is being re-invented with more inclusive and democratically shared
+                  the blockchain revolution is. With these new technologies the web is being re-invented with a more inclusive and democratically set of
                   services and platforms where the individual is back at centre of the web.
                 </p>
                 <p className="my-12 ml-auto text-xl text-right text-cyan-300 font-dafoe ">Welcome to Web3!</p>
@@ -75,6 +76,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <HomeContent />
       </main>
     </div>
   )
