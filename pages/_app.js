@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Head from 'next/head'
-import Footer from '@/components/Footer'
+import LayoutWrapper from '@/components/LayoutWrapper'
 import { ThemeProvider } from 'next-themes'
 
 function MyApp({ Component, pageProps }) {
@@ -9,10 +9,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-
       </Head>
-      <Component {...pageProps} />
-      <Footer />
+      <LayoutWrapper>
+          <Component {...pageProps} />
+        </LayoutWrapper>
     </ThemeProvider>
   )
 }

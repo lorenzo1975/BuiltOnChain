@@ -8,7 +8,7 @@ export default function Hero() {
                     <div className="flex items-center justify-center ">
                         <div className="flex flex-col items-center justify-center h-1/2 lg:-mt-44">
                             <h1 className="mx-auto text-5xl leading-none tracking-tight wicked md:-mb-6 font-monoton blog lg:text-16xl">BUILT on</h1>
-                            <h3 className="text-2xl leading-none text-pink-500 transform -skew-y-6 lg:ml-auto lg:-mt-16 wicked lg:text-10xl text-shadow-synthText font-dafoe md:text-4xl">
+                            <h3 className="text-2xl leading-none text-pink-500 transform -skew-y-6 xl:ml-auto lg:-mt-16 wicked lg:text-10xl text-shadow-synthText font-dafoe md:text-4xl">
                                 Chain</h3>
                         </div>
                     </div>
