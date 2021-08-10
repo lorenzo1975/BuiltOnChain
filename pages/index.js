@@ -13,7 +13,7 @@ export default function Home() {
       />
 
       <Hero />
-      <main>
+
         <section className="justify-center pt-24 body-font">
           <div className="container px-5 mx-auto lg:px-28">
             <div className="flex flex-wrap px-6 lg:px-0 lg:mb-10">
@@ -55,7 +55,6 @@ export default function Home() {
           </div>
         </section>
         <HomeContent />
-      </main>
     </div>
   )
 }

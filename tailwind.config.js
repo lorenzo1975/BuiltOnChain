@@ -4,19 +4,18 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
-
     extend: {
       boxShadow: {
-        'synthBox': '0 0 20px #fff, 0 0 10px #fff, 0 0 50px #ff0fad, 0 0 50px #ff0fad, 0 0 40px #ff0fad, 0 0 100px #ff0fad, 0 0 75px #ff0fad',
-        'glitchBox': '-4px -4px 0 cyan, 4px 4px 0 magenta',
-        'neonBox': '0 0 25px 2.5px #ffffff',
-
+        synthBox:
+          '0 0 20px #fff, 0 0 10px #fff, 0 0 50px #ff0fad, 0 0 50px #ff0fad, 0 0 40px #ff0fad, 0 0 100px #ff0fad, 0 0 75px #ff0fad',
+        glitchBox: '-4px -4px 0 cyan, 4px 4px 0 magenta',
+        neonBox: '0 0 25px 2.5px #ffffff'
       },
       textShadow: {
-        'synthText': '0 0 20px #fff, 0 0 10px #fff, 0 0 50px #ff0fad, 0 0 50px #ff0fad, 0 0 40px #ff0fad, 0 0 100px #ff0fad, 0 0 75px #ff0fad',
-        'glitchText': '-2px -2px 0 cyan, 2px 2px 0 magenta',
-        'neonText': '0 0 25px 2.5px #ffffff',
-
+        synthText:
+          '0 0 20px #fff, 0 0 10px #fff, 0 0 50px #ff0fad, 0 0 50px #ff0fad, 0 0 40px #ff0fad, 0 0 100px #ff0fad, 0 0 75px #ff0fad',
+        glitchText: '-2px -2px 0 cyan, 2px 2px 0 magenta',
+        neonText: '0 0 25px 2.5px #ffffff'
       },
       colors: {
         transparent: 'transparent',
@@ -42,7 +41,7 @@ module.exports = {
         purple: colors.purple,
         pink: colors.pink,
         fuchsia: colors.fuchsia,
-        rose: colors.rose,
+        rose: colors.rose
       },
       fontFamily: {
         monoton: [
@@ -58,7 +57,8 @@ module.exports = {
           'sans-serif',
           '"Apple Color Emoji"',
           '"Segoe UI Emoji"',
-          '"Monoton"',],
+          '"Monoton"'
+        ],
         sans: [
           '"Inter"',
           'system-ui',
@@ -72,7 +72,8 @@ module.exports = {
           'sans-serif',
           '"Apple Color Emoji"',
           '"Segoe UI Emoji"',
-          '"Mr Dafoe"',],
+          '"Mr Dafoe"'
+        ],
         dafoe: [
           '"Mr Dafoe"',
           'system-ui',
@@ -86,7 +87,8 @@ module.exports = {
           'sans-serif',
           '"Apple Color Emoji"',
           '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',]
+          '"Segoe UI Symbol"'
+        ]
       },
       fontSize: {
         '9xl': '7rem',
@@ -100,14 +102,15 @@ module.exports = {
         '17xl': '15rem',
         '18xl': '16rem',
         '19xl': '17rem',
-        '20xl': '18rem',
-      },
-    },
+        '20xl': '18rem'
+      }
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
   plugins: [
-    require('tailwindcss-textshadow')
-  ],
-}
+    require('tailwindcss-textshadow'),
+    require('@tailwindcss/typography')
+  ]
+};
